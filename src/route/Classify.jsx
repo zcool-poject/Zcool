@@ -2,7 +2,10 @@ import React,{Component} from 'react';
 
 class Classify extends Component{
     render(){
-        return <div>Classify</div>
+        return (<div>Classify</div>
+        
+        )
+        
     }
 }
 

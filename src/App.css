@@ -1,8 +1,10 @@
 .App {
   text-align: center;
 }
-html,body{
-  font-size:23.45px;
+body,html{
+    font-size: 23.45px !important;
+    height: auto;
+    overflow: hidden;
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "antd": "^3.20.5",
     "babel-plugin-import": "^1.12.0",
     "customize-cra": "^0.4.1",
     "node-sass": "^4.12.0",

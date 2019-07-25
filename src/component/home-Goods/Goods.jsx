@@ -27,7 +27,7 @@ class Goods extends Component {
         this.scrollFn = this.scrollFn.bind(this);
         this.goto = this.goto.bind(this);
     }
-    async componentDidMount() {//挂在后请求数据
+    async componentDidMount() {//挂载后请求数据
         //在这里拿到goods组件传过来的值进行请求
         let data1 = await get('api/getGoods', {
             params: {

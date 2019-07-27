@@ -31,6 +31,8 @@ class head_mine extends Component {
                 </a>
                 <span id="t-index">个人中心</span>  
             </div>
+
+            {/* 未登录 */}
             <div className="user_login">
                 <a href="javascript:;" onClick={this.gotoReg.bind(this)}>
                     注册
@@ -40,6 +42,21 @@ class head_mine extends Component {
                     登录
                 </a>
             </div>
+
+            {/* 已登录 */}
+            {/* <div className="user_box_person">
+                <div className="user">
+                    <div className="head_img">
+
+                    </div>
+                    <div className="message">
+                        <p className="tel">jp_8576b2b82</p>
+                        <div className="message_detal">
+                            <span>我的账号</span>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
         </header>
     }
 }
